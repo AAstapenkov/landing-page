@@ -1,0 +1,17 @@
+.foto-item {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background:rgba(97, 108, 231,.7);
+            visibility: hidden;
+        }
+
+        &:hover .overlay{
+            visibility:visible;   
+        }
+}

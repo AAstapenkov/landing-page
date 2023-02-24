@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?33gsru');
+  src:  url('fonts/icomoon.eot?33gsru#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?33gsru') format('truetype'),
+    url('fonts/icomoon.woff?33gsru') format('woff'),
+    url('fonts/icomoon.svg?33gsru#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copyright1:before {
+  content: "\e902";
+}
+.icon-copyright:before {
+  content: "\e901";
+}
+.icon-twitter1:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
+}

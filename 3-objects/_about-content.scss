@@ -1,0 +1,15 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+    h2{
+        text-align: left;
+    }
+
+    .text {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,17 @@
+.program-block {
+    display: flex;
+    max-width: 570px;
+    box-shadow: 5px 5px 10px #d4cece;
+    border-radius:10px;
+    cursor: pointer;
+
+    .pic {
+        display: flex;
+        width: 50%;
+    }
+
+    .program-pic {
+        display: flex;
+        object-fit: none;
+    }
+}

@@ -1,0 +1,80 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: $base-color;
+    padding: 50px 70px 50px 70px;
+    color: #fff;
+
+    .footer-container {
+        display: flex;
+    }
+
+    h4 {
+        color: #fff;
+        margin-bottom: 60px;
+    }
+
+    .text {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        margin-bottom: 70px;
+    }
+
+    .social {
+        display: flex;
+        gap: 18px;
+
+        .icon {
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 70px;
+
+            .icon {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            min-width: 193px;
+
+            .address-name {
+                display: flex;
+            } 
+        }
+
+        .phone {
+            display: flex;
+    
+            .number {
+                display: flex;
+            }
+        }
+
+        .email {
+            display: flex;
+            align-items:center;
+            margin-bottom: 14px;
+        }
+
+        .web {
+            display: flex;
+            align-items:center;
+        }
+    } 
+}

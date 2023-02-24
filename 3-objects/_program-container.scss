@@ -1,0 +1,13 @@
+.program-container {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin: 0 auto;
+    padding: 75px 15px 0 15px;
+    
+    .program-row {
+        display: flex;
+        justify-content: center;
+        gap: 27px;
+    }
+}

@@ -1,0 +1,36 @@
+.info-block {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+
+    .info-icon {
+        display: flex;
+        width: 40px;
+        height: 30px;
+        margin: 0 auto;
+        padding: 19px 14px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+
+        img {
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+
+    h4 {
+        color: #fff;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .text {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 270px;
+        text-align: center;
+    }
+}

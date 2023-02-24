@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px 115px;
+
+    .header-logo {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .header-burger {
+        position: absolute;
+        right: 10px;
+        top: 25px;
+
+        .active::before {
+            transform: rotate(45deg);
+        }
+    }
+}
+

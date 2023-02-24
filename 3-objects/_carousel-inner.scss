@@ -1,0 +1,38 @@
+.carousel-inner {
+    display: flex;
+    width: 45%;
+    position: relative;
+    box-shadow: -5px 5px 10px #d4cece;
+    border-radius: 35px;
+
+    .slick-arrow {
+        position: absolute;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        background:#fff;
+        border:none;
+        border-radius:50%;
+        box-shadow: 5px 5px 10px #d4cece;
+        cursor: pointer;
+    }
+
+    .slick-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -17px;
+        box-shadow: -5px 5px 10px #d4cece;
+        padding: 1px;
+        z-index: 1;
+
+    }
+
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -17px;
+        
+    }
+}

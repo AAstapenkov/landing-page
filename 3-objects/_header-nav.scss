@@ -1,0 +1,30 @@
+.header-nav {
+    display: flex;
+
+    ul {
+        margin: 0;
+    }
+
+    li+li {
+        margin-left: 30px;
+    }
+
+    .is-active {
+        position: relative;
+
+        & :hover {
+            color: $base-color;
+
+            &:before {
+                content: '';
+                position: absolute;
+                background-color: $base-color;
+                width: 50%;
+                height: 1px;
+                top: 100%;
+                left: 25%;
+                
+            }
+        }
+    }
+}
