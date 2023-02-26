@@ -644,6 +644,7 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   gap: 18px;
+  color: black;
 }
 
 .footer .social .icon {
