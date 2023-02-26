@@ -1,8 +1,9 @@
 .prices {
     display: flex;
+    justify-content: center;
     gap: 30px;
     padding: 100px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background: url('images/bg-03.jpg');
     background-position: bottom 0px right 0px;
     background-repeat:no-repeat;
