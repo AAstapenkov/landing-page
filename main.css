@@ -643,7 +643,6 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 18px;
 }
 
 .footer .social .icon {
