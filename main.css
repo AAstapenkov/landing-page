@@ -39,7 +39,6 @@ header .header-burger .active::before {
           transform: rotate(45deg);
 }
 
-
 input {
   color: #7F8183;
   padding: 15px 0 15px 10px;
