@@ -415,6 +415,10 @@ a:any-link {
             margin-bottom: 20px;
         }
 
+        h2 {
+            font-size: 18px;
+        }
+
         h3 {
             font-size: 30px;
             line-height: 30px;
